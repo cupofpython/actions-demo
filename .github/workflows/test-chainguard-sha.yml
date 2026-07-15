@@ -27,7 +27,7 @@ jobs:
     steps:
     # Upstream: https://github.com/imjasonh/setup-crane
       - name: Install Crane
-        uses: chainguard-actions/imjasonh-setup-crane@da590462950ad7f31ba01fc43ad1144bc532f265
+        uses: chainguard-actions/imjasonh-setup-crane@1bdfdf057fc35a663d446c5e377af8a7e43a5c3d
 
       - name: Verify Crane installation
         run: crane version
